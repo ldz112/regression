@@ -1,0 +1,34 @@
+{
+    "category": "server/browser",
+    "remark": "加法函数，用于测试。采用默认授权，访问需要用户已认证，并可通过使用AK/SK授权，由index后台调用。",
+    "input": [
+        {
+            "name": "x",
+            "example": "1",
+            "remark": "被加数"
+        },
+        {
+            "name": "y",
+            "example": "2",
+            "remark": "加数"
+        }
+    ],
+    "output": [
+        {
+            "name": "",
+            "type": "int",
+            "example": "3",
+            "remark": "结果"
+        }
+    ],
+    "tests": [
+        {
+            "name": "测试1",
+            "remark": "",
+            "data": {
+                "x": 1,
+                "y": 2
+            }
+        }
+    ]
+}
